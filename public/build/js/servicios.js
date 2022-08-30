@@ -1,0 +1,1 @@
+function iniciarApp(){bordeAlerta()}function bordeAlerta(){document.querySelectorAll(".bordeAlerta").forEach(e=>{e.addEventListener("input",()=>{quitarBordeAndLabel(e)})})}function quitarBordeAndLabel(e){e.classList.contains("bordeAlerta")&&(e.classList.remove("bordeAlerta"),e.nextElementSibling.remove())}document.addEventListener("DOMContentLoaded",(function(){iniciarApp()}));

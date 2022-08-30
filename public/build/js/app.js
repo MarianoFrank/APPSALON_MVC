@@ -1,0 +1,1 @@
+function bordeAlerta(){document.querySelectorAll(".bordeAlerta").forEach(e=>{e.addEventListener("input",()=>{e.classList.remove("bordeAlerta"),e.nextElementSibling.remove()})})}document.addEventListener("DOMContentLoaded",(function(){bordeAlerta()}));
